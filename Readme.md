@@ -31,9 +31,9 @@ $ sudo update-alternatives --install /usr/bin/python python /usr/bin/python2 3
 
 $ sudo update-alternatives --config python
 
+```
 There are 2 choices for the alternative python (providing /usr/bin/python).
 
-```
   Selection    Path                Priority   Status
 ------------------------------------------------------------
   0            /usr/bin/python2     1         auto mode
