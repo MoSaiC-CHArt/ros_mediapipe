@@ -30,8 +30,10 @@ $ sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.6 2
 $ sudo update-alternatives --install /usr/bin/python python /usr/bin/python2 3
 
 $ sudo update-alternatives --config python
+
 There are 2 choices for the alternative python (providing /usr/bin/python).
 
+```
   Selection    Path                Priority   Status
 ------------------------------------------------------------
   0            /usr/bin/python2     1         auto mode
@@ -40,6 +42,7 @@ There are 2 choices for the alternative python (providing /usr/bin/python).
   3            /usr/bin/python3.8   3         manual mode
 
 Press <enter> to keep the current choice[*], or type selection number: 3
+```
 
 $ python -m pip install --upgrade pip
 
@@ -49,6 +52,8 @@ $ python -m pip install matplotlib
 $ python -m pip install mediapipe
 
 $ sudo update-alternatives --config python
+
+```
 There are 2 choices for the alternative python (providing /usr/bin/python).
 
   Selection    Path                Priority   Status
@@ -59,3 +64,4 @@ There are 2 choices for the alternative python (providing /usr/bin/python).
 * 3            /usr/bin/python3.8   3         manual mode
 
 Press <enter> to keep the current choice[*], or type selection number: 1
+```
